@@ -1,0 +1,11 @@
+.team-member .team-details {
+    background-color: rgba(91, 177, 47, 0.8);
+}
+
+.owl-theme .owl-controls .owl-page.active{
+    background-color: #20B2AA;
+}
+
+.dot1, .dot2 {
+    background-color: #20B2AA;
+}

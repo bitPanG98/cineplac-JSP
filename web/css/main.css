@@ -1,0 +1,310 @@
+
+/* =================================== */
+/*	Basic Style 
+/* =================================== */
+
+body {
+    font-family: 'Times New Roman';
+    line-height: 18px;
+	  font-size: 16px;
+    width:100%;
+
+}
+
+/* =================================== */
+/*  inicio
+/* =================================== */
+header{
+  height: 70px;
+}
+
+header nav ul li:hover {
+  background:#4682B4;
+  height: 70px;
+}
+
+header nav ul li a {
+  color:#fff;
+  display:block;
+  text-decoration:none;
+  padding: 20px;
+}
+ 
+header nav ul li:hover .children {
+  display:block;
+}
+ 
+header nav ul li .children {
+  display: none;
+  top: 70px;
+  background:#BAC4C7;
+  position: absolute;
+  width: 160%;
+  z-index:1000;
+}
+ 
+header nav ul li .children li {
+  display:block;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(50,55,55,.5);
+}
+ 
+/* =================================== */
+/*  fin
+/* =================================== */
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure, p {
+    margin: 0;
+}
+
+a {
+    color: #fff;
+	
+    -webkit-transition: all .3s ease-in 0s;
+       -moz-transition: all .3s ease-in 0s;
+        -ms-transition: all .3s ease-in 0s;
+         -o-transition: all .3s ease-in 0s;
+            transition: all .3s ease-in 0s;
+}
+
+iframe {
+    border:0;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: #6CB670;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+ 
+.clear:after {
+   clear: both;
+}
+ 
+.clear {
+   *zoom: 1;
+}
+
+span.color {
+	color: #00FF7F
+;
+}
+
+body > section,
+.footer {
+	padding: 70px 0;
+}
+
+.sec-title {}
+
+.sec-title h2 {
+  color: #00FF7F;
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.sec-sub-title {
+	margin: 35px 0 45px;
+}
+
+.sec-sub-title p {
+	font-weight: 600;
+	line-height: 24px;
+	font-size: 18px;
+	color: #5b646e;
+}
+
+.devider {
+  margin-top: 30px;
+}
+
+.devider i {
+  color: #cccccc;
+}
+
+.devider:before,
+.devider:after {
+  content: "______________________";
+  color: #e6e8ea;
+  position: relative;
+  bottom: 6px;
+}
+
+.devider:before {
+  right: 0px;
+}
+
+.devider:after {
+  left: 10px;
+}
+
+.mb50 {
+	margin-bottom: 50px;
+}
+
+#preloader {
+  background-color: #fff;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1100;
+}
+
+#preloader > img {
+  left: 47%;
+  position: absolute;
+  top: 48%;
+}
+
+
+/*=========================================
+	Header
+==========================================*/
+
+#navigation {
+  background-color: #008080;
+  border: 0 none;
+  margin: 0;
+  
+    -webkit-transition: background-color 800ms linear;
+       -moz-transition: background-color 800ms linear;
+	    -ms-transition: background-color 800ms linear;
+         -o-transition: background-color 800ms linear;
+			transition: background-color 800ms linear;
+}
+
+.navbar-toggle i {
+	color: #FB020A;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-nav li a {
+	border-top: 8px solid transparent;
+}
+
+.navbar-nav li a.current,
+.navbar-nav li a:focus,
+.navbar-nav li a:hover {
+	background-color: transparent;
+	border-top: 2px solid #0A0C17;
+	color: #000000;
+}
+
+
+
+
+/*=========================================
+	Slider
+==========================================*/
+
+#slider {
+	padding: 5;
+}
+
+#slider .carousel-inner .item {
+  background-size: cover;
+}
+
+.carousel-caption {
+  top: 40%;
+}
+
+.carousel-caption h2 {
+  font-size: 62px;
+  font-weight: 300;
+}
+
+.carousel-caption h2 span {
+  font-weight: 800;
+}
+
+.carousel-caption h3 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 6px 0 20px;
+}
+
+.carousel-caption p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.carousel-caption p:before,
+.carousel-caption p:after {
+color: #008080;
+content: "___";
+position: relative;
+top: -8px;
+}
+
+.carousel-caption p:before {
+  right: 20px;
+}
+
+.carousel-caption p:after {
+  left: 20px;
+}
+
+.social-links {
+  margin-top: 5%;
+}
+
+.social-links li {
+	display: inline-block;
+}
+
+.social-links li a {
+  color: rgba(255, 255, 255, 0.3);
+  display: block;
+  margin: 0 6px;
+}
+
+.social-links li a:hover {
+  color: #000000;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+  left: inherit;
+  margin: 0;
+  right: 30px;
+  top: 50%;
+  width: 0;
+}
+
+.carousel-indicators li {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 8px;
+  width: 8px;
+}
+
+.carousel-indicators .active {
+  height: 8px;
+  width: 8px;
+}

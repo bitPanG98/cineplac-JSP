@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,400italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+ 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.owl-theme .owl-controls .owl-page.active{
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.owl-theme .owl-controls .owl-page.active span {
+    background: #fff;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* Start Team Section
+/*-----------------------------------------*/
+
+
+.team-member-section {
+    padding-top: 0;
+    padding-bottom: 50px;
+    font-family: times;
+}
+
+
+
+#team-section  .our-team {
+    padding-top: 20px;
+}
+
+#team-section .team-member img{
+    width: 99%;
+    height: auto;
+    text-align: center;
+}
+
+.team-member .team-details {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+    color: #fff;
+    padding: 0 2px;
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.team-member:hover .team-details {
+    opacity: 1;
+    -webkit-animation: bounceIn;
+    animation: bounceIn;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+}
+
+.team-member .team-details h4 {
+    padding-top: 30%;
+    font-size: 22px;
+    font-family: 'times', sans-serif;
+}
+
+.team-member .team-details li {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.team-member .team-details li a {
+    padding: 8px 12px;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #666;
+    font-size: 16px;
+}
+
+.team-member .team-details li:hover a {
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+
+.owl-controls {
+    margin-top: 35px !important;
+}
+
+
+
+/******* Style Loader *******/
+
+
+#loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%x;
+	height:100%;
+	background: #fff;
+	z-index: 9999999999;
+}
+
+.spinner {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 50%;
+	left: 50%;
+	margin-left: -40px;
+	margin-top: -40px;
+	-webkit-animation: rotatee 2.0s infinite linear;
+	animation: rotatee 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+	width: 60%;
+	height: 60%;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	-webkit-animation: bouncee 2.0s infinite ease-in-out;
+	animation: bouncee 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+	top: auto;
+	bottom: 0px;
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+
+
+

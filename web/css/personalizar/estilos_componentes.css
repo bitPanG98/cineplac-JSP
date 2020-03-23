@@ -1,0 +1,51 @@
+    @font-face{
+
+            font-family:Fuente;
+            src:url(../../fonts/tomnr.ttf);
+
+    }
+
+    h3, h1, h4{
+        
+        color:black;
+        text-align: center;
+        font-family:Fuente;
+         src:url(../../fonts/tomnr.ttf);
+    }
+
+    h5{
+
+        text-align: center;
+        color:black;
+        font-family:Fuente;
+        src:url(../../fonts/tomnr.ttf);
+    }
+  
+    .Input{
+  
+        transition: .8s;
+        background-color: rgba(0,0,0,.5);
+        color: white;
+        font-family: times;
+        border-color:#006;
+	    border-bottom-color:white;
+        border-bottom-style:groove;
+	    border-left:none;
+	    border-right:none;
+	    border-top:none;
+        border-width: 4px;
+        
+    }
+
+    .Combo{
+        transition: .2s;
+        background-color: rgba(0,0,0,.7);
+        color: white;
+        font-family: Times;
+        border-color:#009;
+	    border-bottom-color: white;
+	   border-left:none;
+	    border-right:none;
+        border-width: 2px;
+
+    }

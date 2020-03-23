@@ -1,0 +1,111 @@
+
+    body{
+        /*Imagen de fondo*/
+       /* background-image: url(../img/Banner/fondo_peliculas.jpg);*/
+       background-color: #ffffff;
+        background-attachment: fixed;
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+    
+    }
+
+
+    .texto_cabezera{
+
+    	font-size: 25px;
+    	color:#000000;
+        text-align: center;
+        font-family: "Times";
+
+
+    }
+
+    .boton_login {
+
+        width: 100px;
+        height: 30px;
+        font-family: Times;
+        background-color: #5096CA;
+        position: static;
+
+
+
+    }
+
+    .caja_texto{
+
+        width: 200px;
+        font-size: 15px;
+        text-align: center;
+        font-family: "Times";
+        /*border redonod del boton*/
+        border-radius: 7px;
+        /* linea borde del boton*/
+        border: 1px solid #0016b0;
+
+    }
+
+    .caja_texto:hover{
+         /*color de letra */
+        color: #000000;
+        /**/
+        background-color: #ffffff;
+    }
+
+    .combo{
+
+        width: 150px;
+        height: 20px;
+        font-family: "Times";
+
+    }
+
+    .boton {
+
+        /*ancho del boton*/
+        width: 90px;
+        /*altura del boton*/
+        height: 30px;
+        /*fuente de letra*/
+        font-family: "Times";
+        /*decoracion en el tetxo*/
+        text-decoration: none;
+        /*poscion de texo en  del boyon*/
+        /*padding: 10px;*/
+        /*tamaño de fuente*/
+        font-size: 13px;
+        /*color de letra*/
+        color: #000000;
+        /*color d efondo*/
+        background-color: #1883ba;
+        /*border redonod del boton*/
+        border-radius: 7px;
+        /* linea borde del boton*/
+        border: 1px solid #0016b0;
+
+    }
+
+    /*efecto al pasar el mouse sobre el componente*/
+    .boton:hover{
+        /*color de letra */
+        color: #000000;
+        /**/
+        background-color: 46F23B;
+    }
+
+    .tabla{
+        border-collapse: collapse;
+        font-family: "Times";
+        font-size: 15px;
+        background-color: #06734D;
+    }
+
+    .celda{
+
+        background-color: #06734D;
+
+
+    }
+

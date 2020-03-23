@@ -1,0 +1,125 @@
+@font-face{
+
+        font-family:Fuente;
+        src:url(../../fonts/tomnr.ttf);
+
+}
+    
+    body{
+
+        /*Imagen de fondo*/
+       /* background-image: url(../img/Banner/fondo_peliculas.jpg);*/
+       background-color: #000000;
+        background-attachment: fixed;
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+    }
+    .formulario{
+        transition: 2s;
+        margin-top: 30px;
+        /*tamaño del formulario*/
+        width: 30%;
+        height: 50%;
+        box-shadow: 0px 0px 40px red,0px 0px 80px white;
+    }
+
+    .formulario:hover{
+        transition: .8s;
+        background-color: rgba(0,0,0,.5);
+    }
+
+
+    .logo{
+        /*ropiedades del logo*/
+        height: 50px;
+        margin-top: 5px;
+    }
+    
+    .espaciado{
+        margin-top: 10px;
+    }
+
+    /*linea border*/
+    fieldset{
+        transition: 2s;
+        margin-bottom: 50px;
+        border-color: #00dfff;
+        border-style: groove;
+        border-width: 5px;
+        border-radius: 20px;
+    }
+    
+
+
+    h3,h1,h4{
+        
+        color:white;
+        text-align: center;
+        font-family: Fuente;
+         font-family:Fuente;
+         src:url(../../fonts/tomnr.ttf);
+    }
+
+    h5{
+        text-align: right;
+        color:white;
+         font-family:Fuente;
+         src:url(../../fonts/tomnr.ttf);
+    }
+  
+    .Input{
+        transition: .8s;
+        background-color: rgba(0,0,0,.5);
+        color: white;
+        font-family: times;
+        border-color:#006;
+	    border-bottom-color:white;
+        border-bottom-style:groove;
+	    border-left:none;
+	    border-right:none;
+	    border-top:none;
+        border-width: 2px;
+        
+    }
+
+    .Combo{
+        transition: .2s;
+        background-color: rgba(0,0,0,.7);
+        color: white;
+        font-family: Times;
+        border-color:#009;
+	    border-bottom-color: white;
+	   border-left:none;
+	    border-right:none;
+        border-width: 2px;
+
+    }
+
+    .Input:hover{
+       transition: .8s;
+	   background-color:rgba(55,71,79 ,.5);
+	   box-shadow:inset;
+       border-bottom-color:red;
+	}
+    
+    .Input:focus{
+        transition: .8s;
+	    border-bottom-color:red;
+    }
+
+
+
+    @media screen and (max-width:750px) {
+        
+        .logo{
+            height: 50px;
+
+        }
+        .formulario{
+            transition: 2s;
+            width: 95%;
+            margin-top: 10px;
+        }
+    }
